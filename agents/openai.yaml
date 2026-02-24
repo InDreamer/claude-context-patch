@@ -1,0 +1,6 @@
+interface:
+  display_name: "Claude Context Patch"
+  short_description: "Patch Claude context/compaction defaults safely"
+  default_prompt: "Use $claude-context-patch to patch Claude Code context to 272k and verify effective/threshold values."
+policy:
+  allow_implicit_invocation: true
