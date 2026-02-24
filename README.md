@@ -41,7 +41,15 @@ rg "autocompact:" /tmp/claude_debug.log
 
 ## 给 Codex 当 Skill 用
 
-把这个仓库放进你的 skills 目录即可：
+从 GitHub 安装（推荐）：
+
+```bash
+git clone https://github.com/InDreamer/claude-context-patch.git
+mkdir -p ~/.codex/skills
+cp -R claude-context-patch ~/.codex/skills/claude-context-patch
+```
+
+或者你已经有本地目录时，直接放进 skills 目录：
 
 ```bash
 mkdir -p ~/.codex/skills
